@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Network Test.exe" version="1.0.0.0" publicKeyToken="f856e03fdb6ae959" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Network Test" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Network Test.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Network Test.exe" size="82968">
+      <assemblyIdentity name="Network Test" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>zT4yvN2a3HtxqvdKqxPTBOsjvGh7wfOVry0lVozWc3k=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Network Test.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-4FT79IV\Crayton Litton" issuerKeyHash="b9a1150811da29537397149a7e94d244f02c7df3" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ghxTadbURt3nFGrPMKnSzxk6AckkVcGHhVRNTpIe1Rs=</DigestValue></Reference></SignedInfo><SignatureValue>TX5KMqlsJFQzvvsD5QwCmyFhNlt1ySPfQLmuHdYY3sfo3vnyMeKwFk1rgxgPMjvpCQKo4JasRRTmY7rk2h8vBDQQCStkSYA9C2Un5t6e5rLyjGXbfDuUgyhdwUSMuh4mFKOOGPAHENMW8MN/BlltQ72m0ndC1jKNZBeEYDNVe8c=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xgf4pRIIVCBy3JHE26UShnqpgx2zm88I5+6rDxggISawpKFXyWKwpOWA1onbR7Ly7VdkthInb5RwQlCMYozLpkiXZz1OKtyUkOOzeXM0bnj6Nf17/0oqaDzIcnTYuRfo/q965T305o/1D22thnQo7eXnWkLGt1g06Pa38KwU9P0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="1bd51e924e4d548587c15524c9013a19cfd2a930cf6a14e7dd46d4d669531c82" Description="" Url=""><as:assemblyIdentity name="Network Test.exe" version="1.0.0.0" publicKeyToken="f856e03fdb6ae959" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-4FT79IV\Crayton Litton</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>BZqSBMs0STaMb2XPk+1SkYaYYN6WfkN4xnxB4+g0QLc=</DigestValue></Reference></SignedInfo><SignatureValue>aanFh4JIuy8KwXETeWDl7e/hZCLexj2qpCBbjgwoUoC5JSqTHx6ftJVdk7UKpuDNGHEx1D/xRnO+lPBVQbNzcY2T4iNPDFX7pO4MWi7RCapMoPy4kHZsG9l8CPkoLIfA3wCknZ6CK91lwf4QYOPgTVQ+D0gFTlwOJTL/3L6TRQ8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xgf4pRIIVCBy3JHE26UShnqpgx2zm88I5+6rDxggISawpKFXyWKwpOWA1onbR7Ly7VdkthInb5RwQlCMYozLpkiXZz1OKtyUkOOzeXM0bnj6Nf17/0oqaDzIcnTYuRfo/q965T305o/1D22thnQo7eXnWkLGt1g06Pa38KwU9P0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICETCCAXqgAwIBAgIQEKpMIQkm4JZKaqIkU6i0oDANBgkqhkiG9w0BAQsFADBHMUUwQwYDVQQDHjwARABFAFMASwBUAE8AUAAtADQARgBUADcAOQBJAFYAXABDAHIAYQB5AHQAbwBuACAATABpAHQAdABvAG4wHhcNMjEwNTA2MTgxOTIyWhcNMjIwNTA3MDAxOTIyWjBHMUUwQwYDVQQDHjwARABFAFMASwBUAE8AUAAtADQARgBUADcAOQBJAFYAXABDAHIAYQB5AHQAbwBuACAATABpAHQAdABvAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMYH+KUSCFQgctyRxNulEoZ6qYMds5vPCOfuqw8YICEmsKShV8lisKTlgNaJ20ey8u1XZLYSJ2+UcEJQjGKMy6ZIl2c9TirclJDjs3lzNG54+jX9e/9KKmg8yHJ02LkX6P6veuU99OaP9Q9trYZ0KO3l51pCxrdYNOj2t/CsFPT9AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAgo/bJ/3W85rKD+98Dl+ifE4eE+sReM6JoVgN9no/8e7ytFuYGvbsnVCSCX7/eMqhFJ4w8ur0UPypGC9sW6XECrlaYe4UrkfOD4LORGS9lpUDryCdBK0QQNzVs9pArFlbWOi7zU1kWcHNFbssye4w0TAzCOyDmm+irGkRHY/dUeo=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
