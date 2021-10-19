@@ -14,7 +14,7 @@ Once completed extract the files from the zip file.\
 The extracted folder will open, click the folder "Network-Tester-main"\
 ![image](https://user-images.githubusercontent.com/65417985/137593529-e3be4c5a-9ce8-41e0-953a-24f8ebd1c884.png)
 ***
-Then open the application titled "main".\
+Then open the application titled "main"\
 ![image](https://user-images.githubusercontent.com/65417985/137593557-e2a26b2d-c901-4a4a-9ea9-a001c9f3a033.png)
 ***
 Do not move the application out of its folder or delete the other files, the application will error.\
