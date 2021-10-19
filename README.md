@@ -1,4 +1,8 @@
 # Windows Network Tester
+
+[![Build Status](https://img.shields.io/github/forks/Crcoli7307/Network-Tester.svg)](https://github.com/Crcoli7307/Network-Tester)
+[![Build Status](https://img.shields.io/github/stars/Crcoli7307/Network-Tester.svg)](https://github.com/Crcoli7307/Network-Tester)
+
 Test your network connection on Microsoft Windows with this tool!
 ## How to use:
 Download the zip file under the code section above.\
